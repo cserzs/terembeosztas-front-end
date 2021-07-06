@@ -1,24 +1,9 @@
-# front-end
+##Terembeosztás 
 
-## Project setup
-```
-npm install
-```
+Iskolai terembeosztást segítő weboldal.
+A program jelzi, ha egy terem a kiválasztott időpontban már foglalt.
+Kiírja a teremhez tartozó megjegyzést.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Ez a front-end része a weboldalnak, ami magát a termek hozzárendelését végzi.
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+[Képek a weboldalról](http://www.csernaizsolt.hu/terembeosztas.html)

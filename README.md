@@ -1,4 +1,4 @@
-##Terembeosztás 
+## Terembeosztás 
 
 Iskolai terembeosztást segítő weboldal.
 A program jelzi, ha egy terem a kiválasztott időpontban már foglalt.

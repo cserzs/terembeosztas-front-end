@@ -115,10 +115,14 @@ export default {
     },
 
     getClass(id) {
-      return this.schoolclasses.find(schoolclass => schoolclass.id === id);
+      let schoolclass = this.schoolclasses.find(schoolclass => schoolclass.id === id);
+      if (schoolclass === undefined) console.warn('Hibás osztály id: ' + id);
+      return schoolclass;
     },
     getRoom(id) {
-      return this.rooms.find(room => room.id === id);
+      let room = this.rooms.find(room => room.id === id)
+      if (room === undefined) console.warn("Hibás terem id: " + id);
+      return room;
     },
     getRoomAt(classId, pos, groupId) {
       const roomId = this.$store.getters.getRoomAt(classId, pos, groupId);
